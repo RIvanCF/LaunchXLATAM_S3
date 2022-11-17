@@ -1,0 +1,133 @@
+body{
+    font-family: Tahoma;
+    background-color: white;
+}
+a{
+    text-decoration: none;
+    color: gray;
+}
+header{
+    display: flex;
+    min-height: 30px; 
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    height: 35px;
+    margin-left: 100px;
+}
+nav a{
+    font-weight: 600;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-size: 13px;
+}
+.button{
+    text-transform: uppercase;
+    color: grey;
+    outline: 2px solid white;
+    padding: 10px 20px;
+    position: relative;
+    overflow: hidden;
+    transition: color 1s;
+}
+.button:hover{
+    color: white;
+}
+.button::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background-color: #013274;
+    z-index: -1;
+    transition: width 1s;
+}
+.button:hover::before{
+    width: 100%;
+}
+.contenedor1{
+    height: auto;
+    width: 100%;
+    display: flex;
+    margin: auto;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+.contenedor1 .images{
+    width: 45%;
+}
+.contenedor1 .images img{
+    width: 100%;
+    vertical-align: top;
+}
+.info{
+    width: 55%;
+}
+.texto{
+    width: 100%;
+}
+.texto h1{
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 80px;
+    font-size: 50px;
+    color: #013274;
+}
+.texto p{
+    margin-left: 150px;
+    margin-right: 150px;
+    font-family: sans-serif;
+    font-size: 16px;
+    letter-spacing: 1px;
+    line-height: 30px;
+    color: grey;
+    text-align:justify
+}
+.botones{
+    margin-left: 150px;
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+}
+.botones a{
+    padding-right: 30px;
+    font-weight: 600;
+    font-size: 14px;
+    color: #013274;
+}
+.botones img{
+    width: 5%;
+    vertical-align: top;
+    padding-right: 20px;
+}
+.boton{
+    display: inline-block;
+    margin-block: 2px;
+    text-decoration: none;
+    color: #013274;
+    position: relative;
+}
+.boton::after{
+    content: '';
+    width: 80%;
+    height: 1px;
+    background-color: #013274;
+    border-radius: 4px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform .25s ease;
+}
+.boton:hover::after{
+    transform:scaleX(1);
+}
