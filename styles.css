@@ -131,3 +131,78 @@ nav a{
 .boton:hover::after{
     transform:scaleX(1);
 }
+.botones1{
+    margin-left: 150px;
+    margin-top: 170px;
+    display: flex;
+    align-items: center;
+}
+.botones1 img{
+    width: 8%;
+    padding-right: 20px;
+}
+.botones1 a{
+    padding-right: 30px;
+    font-weight: 600;
+    font-size: 18px;
+    color: #013274;
+}
+.boton1{
+    display: inline-block;
+    margin-block: 2px;
+    text-decoration: none;
+    color: #013274;
+    position: relative;
+}
+.boton1::after{
+    content: '';
+    width: 80%;
+    height: 1px;
+    background-color: #013274;
+    border-radius: 4px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform .25s ease;
+}
+.boton1:hover::after{
+    transform:scaleX(1);
+}
+/*Configuracion del contenedor de datos*/
+.contenedor2{
+    background-color: aqua;
+    display: flex;
+    height: 100px;
+    width: 70%;
+    position: absolute;
+    margin-left: 150px;
+    top: 800px;
+}
+.cont-cuadro{
+    background-color: aliceblue;
+    margin: 5px;
+    width: 25%;
+}
+.title{
+    display: flex;
+    margin: 3px;
+    height: 30px;
+    align-items: center;
+}
+.icon{
+    width: 10%;
+    padding-right: 20px;
+}
+.titulo{
+    color:gray;
+    font-size: 15px;
+    font-weight: 700;
+}
+.text h3{
+    color: #013274;
+    align-items: center;
+    font-size: 18px;
+    margin-left: 43px;
+}
