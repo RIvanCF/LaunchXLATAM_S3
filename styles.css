@@ -172,13 +172,16 @@ nav a{
 }
 /*Configuracion del contenedor de datos*/
 .contenedor2{
-    background-color: aqua;
+    background-color: whitesmoke;
     display: flex;
     height: 100px;
     width: 70%;
     position: absolute;
     margin-left: 150px;
     top: 800px;
+    box-shadow: 0 10px 10px rgb(1,50,116);
+    overflow: hidden;
+    display: none;
 }
 .cont-cuadro{
     background-color: aliceblue;
