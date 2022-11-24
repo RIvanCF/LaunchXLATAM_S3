@@ -209,3 +209,69 @@ nav a{
     font-size: 18px;
     margin-left: 43px;
 }
+.should-text{
+    height: 160px;
+    width: 30%;
+    margin-left: 150px;
+    margin-top: 150px;
+}
+.should-text .Titulo{
+    font-size: 35px;
+    color: #013274;
+}
+.should-text .text{
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    line-height: 30px;
+    color: grey;
+    text-align:justify
+}
+/*Configuracion del cuadro de beneficios de la vacuna*/
+.cont3{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 150px;
+    margin-right: 150px;
+    height: 300px;
+}
+.tarjet{
+    background-color:beige;
+    margin: 5px;
+    width: 24%;
+    border-radius: 10px;
+}
+.img3{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.cont3 .title3{
+    font-size: 20px;
+    font-family: sans-serif;
+    margin-left: 10px;
+    margin-right: 70px;
+    color: #013274;
+}
+.cont3 .text3{
+    font-family: sans-serif;
+    font-size: 16px;
+    color: gray;
+    margin-left: 10px;
+    margin-right: 10px;
+    line-height: 25px;
+}
+/*Cuadro de preparativos */
+.cont-preparations{
+    display: flex;
+    height: auto;
+    width: auto;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+.cont-preparations .cont-img{
+    width: 45%;
+}
+.cont-preparations .cont-img img{
+    width: 50%;
+}
